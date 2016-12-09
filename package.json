@@ -1,0 +1,11 @@
+{
+  "name": "libclientserverjs",
+  "version": "1.0.0",
+  "description": "Node lib for libclientserver (C++ lib)",
+  "main": "lib/libclientserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Stevenson",
+  "license": "MIT"
+}
