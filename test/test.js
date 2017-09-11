@@ -1,7 +1,7 @@
 
 var libclientserver = require("../lib/libclientserver.js");
 
-var Cli = new libclientserver.Client("/tmp/SimpleServer");
+var Cli = new libclientserver.Client("tcp:localhost:6001");
 
 function Test2(data)
 {
@@ -46,6 +46,7 @@ function Run()
 		setTimeout(Run, 1000);
 	}
 }
+
 
 Cli.Connect(function() {
 	Run();
